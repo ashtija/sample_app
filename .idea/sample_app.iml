@@ -12,85 +12,7 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
-        <dependency name="ZenTest" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="actionpack" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="activesupport" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="archive-tar-minitar" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="autotest" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="autotest-fsevent" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="autotest-growl" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="autotest-rails" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="columnize" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="diff-lcs" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="linecache19" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="nokogiri" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rack" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rack-test" version="0" bound="GREATER_OR_EQUAL" git="false" />
+        <dependency name="geminstaller" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <source manual="true" />
     </requirement>
@@ -102,64 +24,9 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="railties" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-core" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-expectations" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-mocks" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="ruby-debug-base19" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="ruby-debug19" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
-      <source manual="true" />
       <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="ruby_core_source" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="spork" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
@@ -178,18 +45,6 @@
         <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <source from="config/database.yml" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="sys-uname" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="webrat" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
@@ -245,6 +100,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug19 (v0.11.6, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/ruby-debug19-0.11.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby_core_source (v0.1.5, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/ruby_core_source-0.1.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] spork (v0.9.0.rc4, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/spork-0.9.0.rc4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] geminstaller (v0.5.5, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/geminstaller-0.5.5)" level="application" />
   </component>
 </module>
 
