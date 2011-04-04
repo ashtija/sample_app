@@ -28,6 +28,7 @@ gem 'ruby-debug19'
 # and rake tasks are available in development mode:
 group :development do
   gem 'rspec-rails', '2.5.0'
+  gem 'annotate-models', '1.0.4'
 end
 
 group :test do
