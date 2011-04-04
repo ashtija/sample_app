@@ -157,6 +157,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="spork" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="sqlite3" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <source from="Gemfile" />
@@ -238,6 +244,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-base19 (v0.11.25, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/ruby-debug-base19-0.11.25)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug19 (v0.11.6, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/ruby-debug19-0.11.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby_core_source (v0.1.5, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/ruby_core_source-0.1.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] spork (v0.9.0.rc4, /Users/admin/.rvm/gems/ruby-1.9.2-p180/gems/spork-0.9.0.rc4)" level="application" />
   </component>
 </module>
 
