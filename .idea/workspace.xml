@@ -83,7 +83,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.048498847">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -685,7 +685,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user view to show.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -707,6 +707,7 @@
     <MESSAGE value="adding to mac pro" />
     <MESSAGE value="added user view" />
     <MESSAGE value="added user view to show.html" />
+    <MESSAGE value="modified the view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -819,7 +820,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.048498847">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
