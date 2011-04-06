@@ -30,15 +30,33 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="factory_girl" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="factory_girl_rails" version="1.0" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="factory_girl_rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="gravatar_image_tag" version="1.0.0.pre2" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="gravatar_image_tag" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
@@ -63,6 +81,12 @@
         <dependency name="rails" version="3.0.4" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
@@ -167,10 +191,13 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] ruby_core_source (v0.1.5, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/ruby_core_source-0.1.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] spork (v0.9.0.rc4, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/spork-0.9.0.rc4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] webrat (v0.7.3, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/webrat-0.7.3)" level="application" />
-    <orderEntry type="library" name="[gem] autotest (v4.4.6, null)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] gravatar_image_tag (v1.0.0.pre2, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/gravatar_image_tag-1.0.0.pre2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] factory_girl (v1.3.3, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/factory_girl-1.3.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] factory_girl_rails (v1.0, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/factory_girl_rails-1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest (v4.4.6, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/autotest-4.4.6)" level="application" />
     <orderEntry type="library" name="[gem] autotest-fsevent (v0.2.4, null)" level="application" />
     <orderEntry type="library" name="[gem] autotest-growl (v0.2.9, null)" level="application" />
-    <orderEntry type="library" name="[gem] autotest-rails (v4.1.0, null)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest-rails (v4.1.0, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/autotest-rails-4.1.0)" level="application" />
     <orderEntry type="library" name="[gem] sys-uname (v0.8.5, null)" level="application" />
     <orderEntry type="library" name="[gem] ZenTest (v4.4.2, null)" level="application" />
     <orderEntry type="library" name="[gem] geminstaller (v0.5.5, null)" level="application" />
