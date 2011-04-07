@@ -37,6 +37,7 @@ group :test do
   gem 'spork', '0.9.0.rc4'
   gem 'webrat', '0.7.3'
   gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'launchy'
   gem 'factory_girl_rails', '1.0'
 end
   
