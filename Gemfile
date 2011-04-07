@@ -37,7 +37,10 @@ group :test do
   gem 'spork', '0.9.0.rc4'
   gem 'webrat', '0.7.3'
   gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'selenium-webdriver', '0.1.4'
+  gem 'selenium-client', '1.2.18'
   gem 'launchy'
   gem 'factory_girl_rails', '1.0'
+  gem 'database_cleaner'
 end
   
