@@ -9,7 +9,8 @@ describe User do
   end
 
   it "should create a new instance given valid attributes" do
-    User.create!(@attr)
+    User..create!(@attr)
+
   end
   
   it "should require a name" do

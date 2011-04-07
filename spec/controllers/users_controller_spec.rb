@@ -75,7 +75,7 @@ describe UsersController do
 
     describe "success" do
       before(:each) do
-        @attr = { :name => "New User", :email => "user@example.com",
+        @attr = { :name => "New User", :email => "new_user@example.com",
                   :password => "foobar", :password_confirmation => "foobar" }
       end
 
