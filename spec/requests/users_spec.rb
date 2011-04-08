@@ -1,4 +1,5 @@
-require 'integration_spec_helper'
+require 'spec_helper'
+require 'selenium-webdriver'
 
 describe "Users" do
   describe "signup" do

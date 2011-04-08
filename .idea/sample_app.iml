@@ -173,6 +173,8 @@
     <orderEntry type="library" name="[gem] ZenTest (v4.4.2, null)" level="application" />
     <orderEntry type="library" name="[gem] geminstaller (v0.5.5, null)" level="application" />
     <orderEntry type="library" name="[gem] sqlite3-ruby (v1.3.1, null)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] launchy (v0.4.0, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/launchy-0.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] configuration (v1.2.0, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/configuration-1.2.0)" level="application" />
   </component>
 </module>
 
