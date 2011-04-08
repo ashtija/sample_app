@@ -26,7 +26,6 @@
       <requirement>
         <dependency name="database_cleaner" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
-      <source manual="true" />
       <source from="Gemfile" />
     </requirement>
     <requirement>
@@ -70,18 +69,6 @@
         <dependency name="ruby-debug19" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="selenium-client" version="1.2.18" bound="EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="selenium-client" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
@@ -177,6 +164,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] webrat (v0.7.3, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/webrat-0.7.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-client (v1.2.18, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/selenium-client-1.2.18)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] database_cleaner (v0.6.6, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/database_cleaner-0.6.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] git (v1.2.5, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/git-1.2.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jeweler (v1.5.2, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/jeweler-1.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium (v0.0.5, /Users/Aashok/.rvm/gems/ruby-1.9.2-p180/gems/selenium-0.0.5)" level="application" />
     <orderEntry type="library" name="[gem] autotest-fsevent (v0.2.4, null)" level="application" />
     <orderEntry type="library" name="[gem] autotest-growl (v0.2.9, null)" level="application" />
     <orderEntry type="library" name="[gem] sys-uname (v0.8.5, null)" level="application" />

@@ -1,19 +1,22 @@
+ENV["RAILS_ENV"] ||= 'test'
+
 require 'spec_helper'
-
-# Add this to load Capybara integration:
-require 'capybara/rspec'
-require 'capybara/rails'
 require 'selenium-webdriver'
-require 'selenium-client'
 
-RSpec.configure do |config|
+RSpec.configure do |se_config|
+  # Transactional fixtures make Selenium an unhappy camper
+  se_config.use_transactional_fixtures = false
 
-  config.use_transactional_fixtures = false
-
-  config.before :each do
+  se_config.before do
+    if [:js]
+      DatabaseCleaner.strategy = :truncation
+    else
+      DatabaseCleaner.strategy = :transaction
+    end
     DatabaseCleaner.start
   end
-  config.after :each do
+
+  se_config.after do
     DatabaseCleaner.clean
   end
 
