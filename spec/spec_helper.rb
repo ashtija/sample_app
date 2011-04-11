@@ -11,10 +11,6 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 
-# Add this to load Capybara integration:
-require 'capybara/rspec'
-require 'capybara/rails'
-
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
@@ -37,16 +33,14 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = false
 
-  #cleaning data before each test
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.clean_with :truncation
   end
 
-  #RSpec integration test data cleanup
   config.before(:each) do
-    if example.metadata[:js]
-      Capybara.current_driver = :selenium
+    if [:js]
+      #Capybara.current_driver = :selenium
       DatabaseCleaner.strategy = :truncation
     else
       DatabaseCleaner.strategy = :transaction
@@ -55,7 +49,7 @@ RSpec.configure do |config|
   end
 
   config.after(:each) do
-    Capybara.use_default_driver if example.metadata[:js]
+    #Capybara.use_default_driver if example.metadata[:js]
     DatabaseCleaner.clean
   end
 end
