@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf68e472-2081-48da-868c-533f6f65fe4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/integration_spec_helper.rb" afterPath="$PROJECT_DIR$/spec/integration_spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/layout_links_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/layout_links_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/users_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/users_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webrat.log" afterPath="$PROJECT_DIR$/webrat.log" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -729,7 +721,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved data cleaning from integration test to spec_helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="all test passing, but firefox is not being executed, Selenium need to be fixed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -761,6 +753,7 @@
     <MESSAGE value="added database cleaner and selenium with capybara" />
     <MESSAGE value="added selenium option :js =&gt; true" />
     <MESSAGE value="moved data cleaning from integration test to spec_helper" />
+    <MESSAGE value="all test passing, but firefox is not being executed, Selenium need to be fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
